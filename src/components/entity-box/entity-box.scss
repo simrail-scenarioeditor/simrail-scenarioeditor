@@ -1,0 +1,40 @@
+.entity-box
+{
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    margin-bottom: 8px;
+
+    .entity-name
+    {
+        align-items: center;
+        display: flex;
+        font-size: 14px;
+        height: 30px;
+        overflow: hidden;
+        width: calc( 100% - 164.06px );
+
+        i
+        {
+            color: #808080;
+        }
+    }
+
+    .actions
+    {
+        align-items: center;
+        display: flex;
+        gap: 16px;
+        margin-left: auto;
+
+        a
+        {
+            white-space: nowrap;
+        }
+    }
+
+    &:last-child
+    {
+        margin-bottom: 0;
+    }
+}

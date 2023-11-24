@@ -1,0 +1,21 @@
+.toast
+{
+    background-color: #FFD080D0;
+    border-radius: 4px;
+    bottom: 16px;
+    font-size: 14px;
+    left: 50%;
+    letter-spacing: 0.8px;
+    opacity: 0.0;
+    padding: 16px 32px;
+    pointer-events: none;
+    position: fixed;
+    transition: opacity 500ms;
+    translate: -50% 0;
+
+    &.show
+    {
+        opacity: 1.0;
+        pointer-events: all;
+    }
+}

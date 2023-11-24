@@ -1,0 +1,54 @@
+.welcome-screen
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+
+    .title
+    {
+        font-size: 20px;
+        font-weight: 300;
+        letter-spacing: 3.2px;
+        margin-bottom: 128px;
+        text-transform: uppercase;
+    }
+
+    .disclaimer
+    {
+        color: firebrick;
+        font-size: 12px;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+        margin-top: 128px;
+    }
+
+    .shortcut
+    {
+        align-items: center;
+        column-gap: 8px;
+        display: flex;
+        margin-bottom: 8px;
+
+        .button
+        {
+            align-items: center;
+            border: 1px solid #909090;
+            border-radius: 4px;
+            display: flex;
+            font-size: 10px;
+            justify-content: center;
+            padding: 8px;
+            min-width: 12px
+        }
+
+        .info
+        {
+            font-size: 12px;
+            letter-spacing: 0.8px;
+            margin-left: 32px;
+            text-transform: uppercase;
+        }
+    }
+}

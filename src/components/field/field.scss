@@ -1,0 +1,69 @@
+.field
+{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+    min-height: 32px;
+
+    .left
+    {
+        min-width: 192px;
+
+        .actions
+        {
+            margin-top: 4px;
+
+            a
+            {
+                font-size: 12px;
+            }
+        }
+    }
+
+    label
+    {
+        font-size: 14px;
+        margin-top: 7px;
+        min-width: 192px;
+    }
+
+    input
+    {
+        border: 1px solid #A0A0A0;
+        border-radius: 2px;
+        font-family: "Segoe UI", sans-serif;
+        font-size: 14px;
+        height: 14px;
+        line-height: 1;
+        padding: 8px;
+        width: calc( 512px - 16px - 2px );
+    }
+
+    textarea
+    {
+        border: 1px solid #A0A0A0;
+        border-radius: 2px;
+        font-family: "Segoe UI", sans-serif;
+        font-size: 14px;
+        line-height: 1.5;
+        padding: 8px;
+        width: calc( 512px - 16px - 2px );
+    }
+
+    .entity-box
+    {
+        width: 512px;
+    }
+
+    .actions
+    {
+        align-items: center;
+        display: flex;
+        gap: 16px;
+    }
+
+    &:last-child
+    {
+        margin-bottom: 0;
+    }
+}

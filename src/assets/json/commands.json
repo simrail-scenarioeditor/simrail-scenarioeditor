@@ -1,0 +1,34 @@
+[
+    {
+        "value": "~03",
+        "caption": "plus / Set switch to plus position"
+    },
+    {
+        "value": "~04",
+        "caption": "minus / Set switch to minus position"
+    },
+    {
+        "value": "~15",
+        "caption": "nastawianieLokalne / Set route"
+    },
+    {
+        "value": "~16",
+        "caption": "nastawianieLokalneAnuluj / Set shunting route"
+    },
+    {
+        "value": "~17",
+        "caption": "stoj / Show stop on signal"
+    },
+    {
+        "value": "~19",
+        "caption": "sygnałZastępczyPotwierdzenie / Show substitute signal"
+    },
+    {
+        "value": "~1C",
+        "caption": "sygnałZastępczyAnuluj / Release substitute signal"
+    },
+    {
+        "value": "~1D",
+        "caption": "zwolnienieDoraźnePociągowego / Immediate route cancellation"
+    }
+]

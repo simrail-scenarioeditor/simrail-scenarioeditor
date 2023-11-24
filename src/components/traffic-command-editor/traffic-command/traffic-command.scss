@@ -1,0 +1,74 @@
+.traffic-command
+{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 24px;
+
+    input
+    {
+        border: 1px solid #A0A0A0;
+        border-radius: 2px;
+        font-family: "Segoe UI", sans-serif;
+        font-size: 14px;
+        height: 14px;
+        line-height: 1;
+        padding: 8px;
+        width: calc( 144px - 16px - 2px );
+
+        &.sequence
+        {
+            width: calc( 192px - 16px - 2px );
+        }
+
+        &.long
+        {
+            width: calc( 228px - 16px - 2px );
+        }
+
+        &.short
+        {
+            width: calc( 64px - 16px - 2px );
+        }
+    }
+
+    .input
+    {
+        display: flex;
+        flex-direction: column;
+
+        label
+        {
+            font-size: 12px;
+            height: 12px;
+            line-height: 1;
+            margin-top: 0;
+            margin-bottom: 4px;
+            min-width: unset;
+        }
+    }
+
+    .command
+    {
+        display: flex;
+        gap: 8px;
+    }
+
+    .params
+    {
+        align-items: center;
+        display: flex;
+        gap: 8px;
+    }
+
+    .link
+    {
+        margin-left: 8px;
+        margin-top: 16px;
+    }
+
+    &:last-child
+    {
+        margin-bottom: 0;
+    }
+}

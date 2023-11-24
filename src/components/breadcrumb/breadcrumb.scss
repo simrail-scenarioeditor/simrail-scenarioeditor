@@ -1,0 +1,23 @@
+.breadcrumb
+{
+    display: flex;
+    gap: 32px;
+    margin-bottom: 8px;
+
+    a
+    {
+        align-items: center;
+        color: inherit;
+        cursor: pointer;
+        display: flex;
+        gap: 8px;
+        font-size: 14px;
+        min-height: 24px;
+        text-decoration: none;
+
+        &:last-child
+        {
+            font-weight: 600;
+        }
+    }
+}

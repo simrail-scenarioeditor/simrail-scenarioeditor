@@ -1,0 +1,19 @@
+.form--waypoint
+{
+    margin-bottom: 24px;
+
+    .field
+    {
+        margin-bottom: 8px;
+
+        label
+        {
+            min-width: 160px;
+        }
+
+        input
+        {
+            width: calc( 344px - 16px - 2px );
+        }
+    }
+}
