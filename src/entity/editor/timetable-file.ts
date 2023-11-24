@@ -67,7 +67,7 @@ export class TimeTableFile
             }
         }
 
-        xml += `</ScenarioManifest>`
+        xml += `</TimeTableStorage>`
 
         return xml
     }
