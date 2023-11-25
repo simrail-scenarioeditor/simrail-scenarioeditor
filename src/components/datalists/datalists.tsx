@@ -34,6 +34,13 @@ export const DataLists = () =>
                 <option value="~02">~02</option>
                 <option value="~0C">~0C</option>
             </datalist>
+
+            <datalist id="datalist-stopTypes">
+                <option value="Commercial Stop / ph">commercialStop</option>
+                <option value="Technical Stop / pt">technicalStop</option>
+                <option value="Drive through">noStopover</option>
+                <option value="Departure">departure</option>
+            </datalist>
         </>
     )
 }

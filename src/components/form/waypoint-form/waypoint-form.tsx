@@ -23,7 +23,7 @@ export const WayPointForm = ( props: WayPointProps ) =>
 
             <TextField id="display-name" label="Display name" value={ props.waypoint.DisplayName } onChange={ value => update( `DisplayName`,  value ) } />
 
-            <TextField id="stop-type" label="Stop type" value={ props.waypoint.StopType } onChange={ value => update( `StopType`,  value ) } />
+            <TextField id="stop-type" label="Stop type" value={ props.waypoint.StopType } onChange={ value => update( `StopType`,  value ) } list="datalist-stopTypes" />
 
             <TextField id="line" label="Line" value={ props.waypoint.Line.toString() } onChange={ value => update( `Line`,  value ) } />
 

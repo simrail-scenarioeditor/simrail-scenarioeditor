@@ -33,3 +33,10 @@ Roadmap
 ✅ Entity icons \
 ✅ TextAreaField for long text fields (e.g. descriptions) \
 ✅ Form based timetable editor 
+
+Changelog
+-
+
+**0.2.1**
+
+- Fixed a bug causing invalid timetable XML generation
